@@ -1,15 +1,10 @@
 <template>
     <div>
-        <MyWatcherVersion />
-
-        <hr />
-        <hr />
-
-        <VueUseWatcherVersion />
+        <!-- Working Version! -->
+        <DeepWatcher />
     </div>
 </template>
 
 <script setup lang="ts">
-    import MyWatcherVersion from './components/MyWatcherVersion.vue'
-    import VueUseWatcherVersion from './components/VueUseWatcherVersion.vue'
+    import DeepWatcher from './components/DeepWatcher.vue'
 </script>
